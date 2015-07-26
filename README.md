@@ -167,7 +167,7 @@ This allows you to customize how many jobs are run by the worker. Each Worker ru
 TRAVIS_WORKER_POOL_SIZE="2"
 ```
 
-Each Worker should have a unique hostname, making it easier to determine where jabs ran. By default this is set to the `hostname` of the host the Worker is running on.
+Each Worker should have a unique hostname, making it easier to determine where jobs ran. By default this is set to the `hostname` of the host the Worker is running on.
 ```bash
 TRAVIS_WORKER_HOSTNAME="<hostname>"
 ```
